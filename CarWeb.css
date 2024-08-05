@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.border {
+  background-color: black;
+  height: 55em;
+}
+.Head {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(184, 58, 20);
+  color: white;
+  padding: 30px 50px;
+  animation: Head 2s ease-in-out;
+}
+@keyframes Head {
+  0% {
+    transform: translateY(-100%);
+  }
+}
+.Homepage ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+.subHead {
+  text-align: center;
+  position: relative;
+  z-index: 100000;
+  color: white;
+  top: 40px;
+}
+.Booking {
+  background-color: #d71d1d;
+  color: white;
+  margin-top: 30px;
+  padding: 18px 50px;
+  font-weight: bolder;
+  border: 3px solid rgb(166, 190, 215);
+  border-radius: 25px;
+  cursor: -webkit-grab;
+}
+.Booking:hover {
+  background: rgb(255, 10, 10);
+}
+.CarWeb {
+  position: relative;
+  left: 100px;
+  font-weight: bolder;
+  font-size: x-large;
+  top: 4em;
+  z-index: 10000;
+}
+.content {
+  margin-top: 10px;
+  color: white;
+  animation: content 2s ease-in-out;
+}
+@keyframes content {
+  0% {
+    opacity: 0;
+    transform: translateX(-35%);
+  }
+}
+.content h1 {
+  margin-bottom: 3px;
+  letter-spacing: 7px;
+  font-family: sans-serif;
+}
+.content h3 span {
+  color: yellow;
+  font-family: sans-serif;
+}
+.buttonA {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-inline: 5px;
+  padding: 15px 40px;
+}
+.buttonA:hover {
+  background: rgb(255, 10, 10);
+}
+.Carlogo {
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  animation: Carlogo 5s ease-in-out;
+}
+@keyframes Carlogo {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
